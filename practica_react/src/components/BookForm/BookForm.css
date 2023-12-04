@@ -1,0 +1,42 @@
+.new-book-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-book-control label {
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-book-control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.new-book-control select {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.new-book-actions {
+    margin-top: 2%;
+}
+
+.new-book-error {
+    color: crimson;
+    border-radius: 6px;
+    font-size: small;
+}

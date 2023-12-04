@@ -1,0 +1,26 @@
+.Books-filter {
+    color: white;
+    padding: 0 1rem;
+}
+
+.Books-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.Books-filter label {
+    margin-right: 0.5em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.Books-filter select {
+    font: inherit;
+    padding: 0.2rem 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+}

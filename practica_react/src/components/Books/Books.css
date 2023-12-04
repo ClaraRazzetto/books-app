@@ -1,0 +1,10 @@
+.books-container {
+    display: flex;
+    justify-content: center;
+}
+
+.books-filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

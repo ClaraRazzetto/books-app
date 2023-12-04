@@ -1,0 +1,14 @@
+.readDate-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1em;
+    padding: 0.3em 2em;
+    border-color: darkgrey;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.readDate-container div{
+    padding-inline: 3px;
+}
